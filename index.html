@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="script.js"></script>
+    </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#" onsubmit="return validation()" class = "big-light">
+        <div class="user-details">
+          <div class="input-box">
+            <label for="">Full Name</label>
+            <input type="text" id = "full_name" placeholder="Enter your name">
+            <span id = "full" class="error"></span>
+          </div>
+          <div class="input-box">
+            <label for="">Username</label>
+            <input type="text" id = "Username" placeholder="Enter your username">
+            <span id = "user" class="error"></span>
+          </div>
+          <div class="input-box">
+            <label for="">Email</label>
+            <input type="email" id = "emails" placeholder="Enter your email">
+            <span id = "Email" class="error"></span>
+          </div>
+          <div class="input-box">
+            <label for="">Phone Number</label>
+            <input type="text" id = "Phone_Number" placeholder="Enter your number">
+            <span id = "Phone Number" class="error"></span>
+          </div>
+          <div class="input-box">
+            <label for="">Password</label>
+            <input type="password" id = "pass_word" placeholder="Enter your password">
+            <span id = "passwords" class="error"></span>
+          </div>
+          <div class="input-box">
+            <label for="">Confirm Password</label>
+            <input type="password" id = "con_pass" placeholder="Confirm your password">
+            <span id = "c_password" class="error"></span>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
